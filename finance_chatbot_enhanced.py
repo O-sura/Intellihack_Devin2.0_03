@@ -127,7 +127,7 @@ def refine_with_openai(prompt, results):
     return response.choices[0].message['content'].strip()
 
 # Terminal input for queries
-print("Enter your questions to query the database. Type 'exit' to quit.")
+print("Ask your questions. Type 'exit' to quit.")
 while True:
     query_text = input("\nYour question: ")
     if query_text.lower() == 'exit':
