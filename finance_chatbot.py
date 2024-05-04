@@ -19,7 +19,7 @@ messages[0]["content"] += json_data
 
 def CustomChatGPT(user_input):
     messages.append({"role": "user", "content": user_input})
-    response = openai.chat.completions.create(
+    response = openai.ChatCompletion.create(
         model = "gpt-3.5-turbo",
         messages = messages
     )
