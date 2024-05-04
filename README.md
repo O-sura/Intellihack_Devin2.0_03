@@ -36,12 +36,12 @@ This implementation uses OpenAI's GPT-3.5-turbo model to simulate a professional
 
 This implementation uses a more sophisticated approach by leveraging OpenAI's embeddings and ChromaDB to store and retrieve loan data efficiently. The chatbot combines embeddings with GPT-3.5-turbo to provide context-aware answers to user queries.
 
-### Features
+### Features and Scalability
 
-- Extracts and processes detailed loan information from the provided `data.json`.
-- Uses OpenAI's `text-embedding-ada-002` model to generate embeddings for the data.
-- Stores and retrieves embeddings using ChromaDB for fast and accurate search.
-- Refines answers using OpenAI's GPT-3.5-turbo model based on the context retrieved from the database.
+- **Advanced Data Handling**: Extracts and processes detailed loan information from the provided `data.json`.
+- **Efficient Search with Embeddings**: Uses OpenAI's `text-embedding-ada-002` model to generate embeddings for the data, enabling quick and context-aware search.
+- **Scalable Storage and Retrieval**: Stores and retrieves embeddings using ChromaDB, which is designed to scale with larger datasets for fast and accurate search.
+- **Enhanced Query Refinement**: Refines answers using OpenAI's GPT-3.5-turbo model based on the context retrieved from the database.
 
 ### Setup and Usage
 
@@ -62,4 +62,4 @@ This implementation uses a more sophisticated approach by leveraging OpenAI's em
 
 ## Conclusion
 
-Both implementations aim to provide useful financial insights to users regarding loans and banking products. The first implementation is simpler and ideal for quick setups, while the enhanced version offers improved context-aware responses through advanced embedding-based search.
+Both implementations aim to provide useful financial insights to users regarding loans and banking products. The first implementation is simpler and ideal for quick setups, while the enhanced version offers improved scalability and context-aware responses through advanced embedding-based search using ChromaDB.
