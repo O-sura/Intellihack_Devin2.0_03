@@ -1,0 +1,298 @@
+{
+    "LoansDescription": {
+      "BankName": "Smart Bank",
+      "LoanTypes": [
+        "Overdraft Facilities",
+        "Housing Loans",
+        "Education Loans",
+        "Pensioner's Loans",
+        "Personal Loans"
+      ],
+      "LoanSchemes": [
+        {
+          "LoanType": "Overdraft Facilities",
+          "Description": "An overdraft is the ideal way to manage your cash flow at competitive rates of interest at speed. It is linked to your current account and you can use as much as you need, up to your limit. You can also apply for and either increase or decrease your limit through Internet banking. The controls are in your hands.",
+          "Features": [
+            "An overdraft is quick and easy to arrange",
+            "The cash is available when you need it",
+            "You only pay interest on what you use, not on the full amount of your set limit",
+            "Sole proprietors can apply for an overdraft or increase their limits"
+          ]
+        },
+        {
+          "LoanType": "Housing Loans",
+          "SubTypes": [
+            {
+              "SubLoanType": "Housing Loan Scheme",
+              "Features": [
+                "Purchase a land to construct a house later",
+                "Purchase a land and to construct a house",
+                "Construct a house in a land owned by the borrower/s",
+                "Purchase a house/ partly constructed house/ condominium unit",
+                "Complete construction/ renovation/ extension/ repair of an existing house/ condominium unit",
+                "Landscaping/ interior decoration of the house/ condominium unit",
+                "Construction of houses/ apartments for sale (Please contact the relevant branch for more information, This facility is provided only for commercial-purpose house builders)"
+              ],
+              "QuantumOfLoan": {
+                "Description": [
+                  "MinimumAmount : Rs. 500,000",
+                  "MaximumAmount : Rs. 50 Million",
+                  "RepaymentPeriod : 25 years",
+                  "AreaOfOperation : All Island"
+                ]
+              },
+              "Eligibility": [
+                "Be a Sri Lankan Citizen/s above the age of 18 years",
+                "The borrower should be a resident of Sri Lanka",
+                "Should not be a defaulter of Smart Bank or any other financial institution",
+                "Professionals with fixed/non-fixed income, permanent employees of government, statutory bodies, private sector, self-employed, farmers, and cultivators etc.",
+                "In case of a joint housing loan, the co-borrowers should be close relatives or directly interested parties for purchasing/developing of property"
+              ],
+              "RatesOfAdvance": [
+                {
+                  "Purpose": "Purchase a land to construct a house later",
+                  "Rate": "Maximum of 75% of reviewed market value or purchase price of the property, whichever is lesser"
+                },
+                {
+                  "Purpose": "Purchase a land and to construct a house",
+                  "SubPurposes": [
+                    {
+                      "SubPurpose": "Land Purchasing",
+                      "Rate": "Maximum of 75% of reviewed market value or purchase price of the property, whichever is lesser"
+                    },
+                    {
+                      "SubPurpose": "House Construction",
+                      "Rate": "Maximum of 90% of the BOQ"
+                    }
+                  ]
+                },
+                {
+                  "Purpose": "Construct a house in a land owned by the borrower/co-borrower",
+                  "Rate": "Maximum of 90% of the BOQ"
+                },
+                {
+                  "Purpose": "Purchase a house/ partly constructed house/ condominium unit",
+                  "Rate": "Maximum of 75% of reviewed market value or purchase price of the property, whichever is lesser"
+                },
+                {
+                  "Purpose": "Complete construction/ renovation, extension / repair of an existing house/ condominium unit",
+                  "Rate": "90% of the BOQ value"
+                },
+                {
+                  "Purpose": "Landscape/ interior decoration of existing house/ condominium unit",
+                  "Rates": [
+                    {
+                      "Condition": "If reviewed forced sale value of the house/ apartment is above the loan amount",
+                      "Rate": "100% of cost"
+                    },
+                    {
+                      "Condition": "If not",
+                      "Rate": "75% of cost or reviewed forced sale value of the house property, whichever is less"
+                    }
+                  ]
+                },
+                {
+                  "Purpose": "Construction of houses/ Apartments for sale",
+                  "Rate": "Maximum 70% of the BOQ value"
+                }
+              ],
+              "SecurityCollateral": {
+                "Description": "Mortgage over the subject property / property owned by the applicant's.",
+                "ConditionsApply": [
+                  "Smart Bank holds the authority to change, add or revise any condition, term or statement in this facility.",
+                  "For more information, please contact the Manager at your nearest Smart Branch or call centre: 1234."
+                ]
+              }
+            },
+            {
+              "SubLoanType": "Housing Loan for University Staff",
+              "Features": [
+                "Smart Bank offers a special housing loan scheme to officers with a minimum of 5 year service and confirmed in Service who are serving in the universities which are registered under the Universities Act No: 16 of 1978",
+                "A loan under this scheme shall be granted only once during the period of service"
+              ],
+              "QuantumOfLoan": {
+                "Description": [
+                  "Academic Staff and Non Academic Staff Grade officers : Rs. 2.0 Million",
+                  "Non-Staff Grade officers: Rs. 1.0 Million"
+                ],
+                "ConditionsApply": [
+                  "(Smart Bank holds the authority to change, add or revise any condition, term or statement in this facility)"
+                ]
+              }
+            },
+            {
+              "SubLoanType": "Housing Loan Scheme for the Permanent Cadre Employees",
+              "Description": "This Housing Loan Scheme is designed for Sri Lanka’s permanent cadre salaried employees in both public and private sector. The objective is to offer a stable solution to a nagging housing problem of the established working professional.",
+              "RepaymentPeriod": " Maximum 25 years. However, the loan should be fully settled before the borrower’s retirement day",
+              "SecurityCollateral": {
+                "Description": [
+                  "Primary mortgage over the property to be developed.",
+                  "In case of a condominium apartment, the property to be mortgaged to the bank after completion of the construction. A tripartite agreement should be signed between the developer, borrower and the bank to continue the process until the mortgage of the property has been fully recovered."
+                ]
+              },
+              "HowToApply": {
+                "Description": "It takes only few minutes to complete your request. When you're finished, we'll give you a response immediately.Use the link: https://forms.smartbank.lk/housing/housing to apply online",
+                "WhatYouNeed": [
+                  "Calculate your eligible loan amount using Loan Calculator provided in this site.",
+                  "Your Smart Bank account number (if you have one)",
+                  "Financial details including your income & expenses",
+                  "You are required to specify your purpose. Accordingly, you will be notified information required to process your request."
+                ],
+                "WhatHappenAfterApply": [
+                  "SMS will be sent to your mobile number, with a reference, acknowledging your request.",
+                  "You will be notified (via email) to submit documents, if eligible to proceed.",
+                  "Once your Loan is approved, SMS/email confirmation will be sent informing the next step."
+                ],
+                "Number of applicants": [
+                  "Only individual applications are facilitated online. For joint applications, please visit nearest Smart Bank branch"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "LoanType": "Education Loan",
+          "SubTypes": [
+            {
+              "SubLoanType": "Educational Loan",
+              "Description": "Smart Bank Educational Loans provide the financial support you need to achieve your higher educational goals at local or foreign universities",
+              "InterestPaymentOption": "Option of paying only the interest until the degree is complete",
+              "LoanAmount": "Receive the maximum loan amount necessary for your requirements",
+              "ServiceSpeed": "Speedy service",
+              "CostTransparency": "No hidden costs",
+              "MaximumLoanAmount": "Maximum Rs. 10.0 Million (or 80% of the course fee, whichever is less)",
+              "RepaymentPeriod": "Maximum of 7 years with 04 years Grace period",
+              "Security": "Mortgage of property for facilities over Rs. 500,000/-",
+              "PurposeOfLoan": [
+                "Registration Fees",
+                "Course Fees",
+                "Examination Fees",
+                "Payments for Travel Expenses can be considered for Foreign Universities"
+              ],
+              "Eligibility": [
+                "Smart Bank Customers and Students should have a minimum of 3 passes at G.C.E. (A/L) to follow degree courses",
+                "Should follow Post Graduate Examinations and Diplomas relevant to current employment",
+                "Should obtain the approval of the University Grant Commission of Sri Lanka for local/foreign educational institute, university and course"
+              ],
+              "RequiredDocuments": [
+                "Loan Application",
+                "Letter from University",
+                "Proof of identification (NIC/Passport)"
+              ]
+            },
+            {
+              "SubLoanType": "Laptop Loan",
+              "Description": "A special loan scheme to enable University Students the funds to purchase Laptop Computers",
+              "LoanAmount": "Up to a maximum of Rs. 75,000/-",
+              "InterestRate": "0% (* Conditions apply. During NPA, customer should pay monthly AWPLR+0.5 subject to floor rate of 8.5%)",
+              "RepaymentPeriod": "Up to a maximum of 3 years",
+              "Collateral": "A Personal Guarantee",
+              "Eligibility": [
+                "Only for students in National Universities",
+                "Joint loan with a parent/guardian"
+              ],
+              "RequiredDocuments": [
+                "Duly completed Application",
+                "Student Record Book and Student ID",
+                "NIC of Student, Parent/Guardian and Guarantor",
+                "Recommendation Letter by an Authorized Person of the University"
+              ]
+            }
+          ]
+        },
+        {
+          "LoanType": "Government Pensioner’s Loan Scheme",
+          "SubTypes": [
+            {
+              "SubLoanType": "Pensioner Loan",
+              "Purpose": [
+                "To Start a Business",
+                "Educational Expenses of their children",
+                "To meet Medical Expenses",
+                "House Repairs",
+                "Any Other Purpose legally acceptable (to uplift the lifestyle of the pensioners)"
+              ],
+              "Eligibility": [
+                "Government Pensioners below 75 years of age",
+                "Pension should be remitted to Smart Bank Account (Joint accounts will not be permitted.)"
+              ],
+              "LoanAmount": {
+                "Description": "No upper limit",
+                "Condition": "Monthly installment of the loan should be below 70% of gross pension"
+              },
+              "Repayment": "Maximum 15 years",
+              "Security": [
+                "Pension should be remitted to Smart Bank Account.",
+                "Decreasing Term Assurance Policy (DTA Policy)"
+              ],
+              "Conditions": "Smart Bank holds the authority to change, add or revise any term and condition in this facility.",
+              "ContactInformation": "For more information, please contact the Manager at your nearest Smart Bank Branch or Smart Bank Call Centre: 1234"
+            }
+          ]
+        },
+        {
+          "LoanType": "Personal Loans",
+          "SubTypes": [
+            {
+              "SubLoanType": "Smart Bank Personal Loan",
+              "Description": "Get a step closer to your dreams and goals by availing our Personal Loans and meet your financial needs. You can avail a personal loan to meet unexpected expenses, a dream holiday, school or college fees, wedding expenditure, home improvement expenses or even to purchase consumer durables.",
+              "Benefits": [
+                "Simplified documentation",
+                "Competitive rates",
+                "Transparency",
+                "Availability of Personal Loans for a variety of needs"
+              ],
+              "ApplicationProcess": [
+                "Click on the Apply Online button (or Visit any Smart Bank Branch)",
+                "Complete the online Application",
+                "Once completed click on Submit button (please remember the reference number given)",
+                "You will receive an email or telephone call to visit the branch with required documents"
+              ],
+              "Eligibility": [
+                "In the age group of 18-55 (Applicants over 55 can be entertained, but only under special circumstances)",
+                "A salaried employee belonging to the following categories: Permanent employees of Government Service/ Statutory Bodies with a take home salary of LKR 30,000 or more",
+                "Employees of Private sector entities as listed by the bank with a take home salary of LKR 40,000 or more"
+              ],
+              "RequiredDocuments": [
+                "Loan Application",
+                "Letter from Employer confirming service, position & salary",
+                "Form No.375",
+                "Proof of Identification (NIC/ Passport)"
+              ]
+            },
+            {
+              "SubLoanType": "Loans for Professionals",
+              "Description": "This loan scheme is designed to provide financial support to professionals in designated sectors.",
+              "EligibleSectors": [
+                "Health Sector",
+                "SLASA/SLEASA/SLPSA/GICTPA",
+                "Engineers (IESL, IIESL)",
+                "Tri Forces (Army, Navy, Airforce), Sri Lanka Police",
+                "Government Employees",
+                "Accountants",
+                "Professional Qualified Persons (MAAT, ACA, FCA, ACMA, CGMA, ACCA)",
+                "Employees of the office of the President/ Prime Minister",
+                "Permanent Employees of the Institute of Bankers of Sri Lanka (IBSL)",
+                "Employees of Sri Lanka Insurance Corporation (SLIC)",
+                "Academic/Non-Academic Staff of Sri Lanka Institute of Information Technology (SLIIT)",
+                "Customs",
+                "Valuers",
+                "Members of the Government Surveyors Association",
+                "Members of the Association of the Government Scientific Officers (AGSO)",
+                "Employees of Airport and Aviation Services"
+              ],
+              "RequiredDocuments": [
+                "Loan Application",
+                "Letter from Employer confirming service, position & salary",
+                "Form No. 375 (Permanent employees only)",
+                "DTA Policy",
+                "Any other documents if required"
+              ],
+              "Security": "One/ two guarantors in the same/higher grade to the borrower based on the loan scheme."
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
